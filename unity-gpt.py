@@ -11,6 +11,6 @@ pages=loader.load_and_split()
 llm = OpenAI(temperature=0.4)
 
 faiss_index = FAISS.from_documents(pages, OpenAIEmbeddings())
-docs = faiss_index.similarity_search("What version of Unity is best to make a 2D game?", k=2)
+docs = faiss_index.similarity_search("What is the best way to create tilesets?", k=2)
 for doc in docs:
     print(str(doc.metadata["page"]) + ":", doc.page_content[:300])
