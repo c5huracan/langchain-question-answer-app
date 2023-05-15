@@ -4,8 +4,28 @@ Using the LangChain PyPDF Directory Loader, the FAISS vectorstore, and OpenAI Em
 
 ## Installation:
 
-'mkdir <new-directory> && cd <new-directory>'
-
-Installation:
-
 mkdir <new-directory> && cd <new-directory>
+
+git clone https://github.com/c5huracan/langchain-question-answering-script.git
+
+conda create --name <environment-name>
+
+conda activate <environment-name>
+
+conda install python
+
+conda install langchain -c conda-forge
+
+export OPENAI_API_KEY=<your-openai-api-key>
+
+conda install openai
+
+conda install tiktoken
+
+conda install faiss
+
+conda install pypdf
+
+## Running the script:
+
+python unity-gpt.py
