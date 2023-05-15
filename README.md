@@ -4,7 +4,8 @@ Using the LangChain PyPDF Directory Loader, the FAISS vectorstore, and OpenAI Em
 
 ### Installation:
 
-'mkdir new-directory && cd new-directory'
+```shell
+mkdir new-directory && cd new-directory
 
 git clone https://github.com/c5huracan/langchain-question-answering-script.git
 
@@ -25,6 +26,7 @@ conda install tiktoken
 conda install faiss
 
 conda install pypdf
+```
 
 ### Running the script:
 
