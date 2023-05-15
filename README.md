@@ -33,3 +33,5 @@ python unity-gpt.py
 ## Disclaimer
 
 This script is experimental and not at all ready for production. Please use accordingly. For example, on an individual machine or a non-production environment.
+
+Additionally, the OpenAI API has a cost associated with its usage. Additional details can be found here: https://openai.com/pricing
