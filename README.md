@@ -2,21 +2,21 @@
 
 Using the LangChain PyPDF Directory Loader, the FAISS vectorstore, and OpenAI Embeddings to make a basic question answering python script to query multiple locally stored PDF files. In this case, Unity documentation but this could be a directory with any PDF files with which you would like to interact.
 
-## Installation:
+### Installation:
 
-mkdir <new-directory> && cd <new-directory>
+mkdir new-directory && cd new-directory
 
 git clone https://github.com/c5huracan/langchain-question-answering-script.git
 
-conda create --name <environment-name>
+conda create --name new-environment
 
-conda activate <environment-name>
+conda activate new-environment
+
+export OPENAI_API_KEY=your-openai-api-key-here
 
 conda install python
 
 conda install langchain -c conda-forge
-
-export OPENAI_API_KEY=<your-openai-api-key>
 
 conda install openai
 
@@ -26,6 +26,6 @@ conda install faiss
 
 conda install pypdf
 
-## Running the script:
+### Running the script:
 
 python unity-gpt.py
