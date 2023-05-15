@@ -4,48 +4,24 @@ Using the LangChain PyPDF Directory Loader, the FAISS vectorstore, and OpenAI Em
 
 ### Installation:
 
-```
-mkdir new-directory && cd new-directory
-```
-
-```
-git clone https://github.com/c5huracan/langchain-question-answer-app.git
+```shell
+git clone https://github.com/c5huracan/langchain-question-answering-script.git
 ```
 
 ```
-conda create --name new-environment`
+cd langchain-question-answering-script
 ```
 
 ```
-conda activate new-environment
+conda env create -f environment.yaml
+```
+
+```
+conda activate test-env
 ```
 
 ```
 export OPENAI_API_KEY=your-openai-api-key-here
-```
-
-```
-conda install python
-```
-
-```
-conda install langchain -c conda-forge
-```
-
-```
-conda install openai
-```
-
-```
-conda install tiktoken
-```
-
-```
-conda install faiss
-```
-
-```
-conda install pypdf
 ```
 
 ### Running the script:
