@@ -4,34 +4,58 @@ Using the LangChain PyPDF Directory Loader, the FAISS vectorstore, and OpenAI Em
 
 ### Installation:
 
-`mkdir new-directory && cd new-directory`
+```
+mkdir new-directory && cd new-directory
+```
 
-`git clone https://github.com/c5huracan/langchain-question-answer-app.git`
+```
+git clone https://github.com/c5huracan/langchain-question-answer-app.git
+```
 
-`conda create --name new-environment`
+```
+conda create --name new-environment`
+```
 
-`conda activate new-environment`
+```
+conda activate new-environment
+```
 
-`export OPENAI_API_KEY=your-openai-api-key-here`
+```
+export OPENAI_API_KEY=your-openai-api-key-here
+```
 
-`conda install python`
+```
+conda install python
+```
 
-`conda install langchain -c conda-forge`
+```
+conda install langchain -c conda-forge
+```
 
-`conda install openai`
+```
+conda install openai
+```
 
-`conda install tiktoken`
+```
+conda install tiktoken
+```
 
-`conda install faiss`
+```
+conda install faiss
+```
 
-`conda install pypdf`
+```
+conda install pypdf
+```
 
 ### Running the script:
 
-`python unity-gpt.py`
+```
+python unity-gpt.py
+```
 
 ## Disclaimer
 
-This script is experimental and not at all ready for production. Please use accordingly. For example, on an individual machine or a non-production environment.
+This script is experimental and not at all ready for production. Please use accordingly. For example, on an individual machine or in a non-production environment.
 
 Additionally, the OpenAI API has a cost associated with its usage. Additional details can be found here: https://openai.com/pricing
