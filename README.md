@@ -6,7 +6,7 @@ Using the LangChain PyPDF Directory Loader, the FAISS vectorstore, and OpenAI Em
 
 `mkdir new-directory && cd new-directory`
 
-`git clone https://github.com/c5huracan/langchain-question-answering-script.git`
+`git clone https://github.com/c5huracan/langchain-question-answer-app.git`
 
 `conda create --name new-environment`
 
