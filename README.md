@@ -30,7 +30,7 @@ conda install pypdf
 
 ### Running the script:
 
-python unity-gpt.py
+`python unity-gpt.py`
 
 ## Disclaimer
 
